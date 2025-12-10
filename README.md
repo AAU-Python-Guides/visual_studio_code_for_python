@@ -48,8 +48,8 @@ Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/insta
     `/usr/local/bin/python3.14`            (Intel)
        
 
-4. Install needed packages using pip
-   - pip install -r requirements.txt
+4. Install needed packages using pip, after selecting interpreter. i.e. something like this:
+   - `pip install -r requirements.txt`
 
 ## Running Python
 
