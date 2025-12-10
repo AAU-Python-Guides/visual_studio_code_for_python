@@ -60,9 +60,9 @@ VS code should look something like this
 
 ![running1](vs_setup5.png)
 
-Then the correct Interpreter will be:
+The correct Interpreter will be:
 - Windows: `C:\Python314\python.exe`
 - MacOS (something like, honestly, I dont know!):
   `/opt/homebrew/bin/python3.14`         (Apple Silicon)
   `/usr/local/bin/python3.14`            (Intel)
-
+And the name when selected will be something like: `3.14.2` or similar.
