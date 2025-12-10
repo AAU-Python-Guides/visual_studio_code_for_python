@@ -25,7 +25,9 @@ Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/insta
 ## Working in a Visual Studio Code Environment
 
 1. Open a workfolder
-   File > Open Folder > `Select Folder to open`.
+
+   File > Open Folder > `Select Folder to open`
+   
 3. create or open a python file i.e. `hello.py`
 5. If you did this correctly, your vs code should look like this.
    - Focus on the red squares!
@@ -44,7 +46,9 @@ Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/insta
   The correct Interpreter will be:
   - Windows: `C:\Python314\python.exe`
   - MacOS (something like, honestly, I dont know!):
+
     `/opt/homebrew/bin/python3.14`         (Apple Silicon)
+
     `/usr/local/bin/python3.14`            (Intel)
        
 
@@ -65,4 +69,5 @@ The correct Interpreter will be:
 - MacOS (something like, honestly, I dont know!):
   `/opt/homebrew/bin/python3.14`         (Apple Silicon)
   `/usr/local/bin/python3.14`            (Intel)
+  
 And the name when selected will be something like: `3.14.2` or similar.
