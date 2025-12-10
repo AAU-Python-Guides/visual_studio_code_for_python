@@ -38,15 +38,15 @@ Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/insta
 
 2. Select `3.14.x` (Your installed python)
    
-   Your python might be 3.14.2 or similar
+  Your python might be 3.14.2 or similar
+  ![Select env3](vs_setup4.png)
    
-    The correct Interpreter will be:
-    - Windows: `C:\Python314\python.exe`
-    - MacOS (something like, honestly, I dont know!):
-      `/opt/homebrew/bin/python3.14`         (Apple Silicon)
-      `/usr/local/bin/python3.14`            (Intel)
+  The correct Interpreter will be:
+  - Windows: `C:\Python314\python.exe`
+  - MacOS (something like, honestly, I dont know!):
+    `/opt/homebrew/bin/python3.14`         (Apple Silicon)
+    `/usr/local/bin/python3.14`            (Intel)
        
-        ![Select env3](vs_setup4.png)
 
 4. Install needed packages using pip
    - pip install -r requirements.txt
