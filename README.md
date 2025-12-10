@@ -48,6 +48,14 @@ Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/insta
 ## Running Python
 
 VS code should look something like this
- - The `.venv` is a Python Environment, so you can have multiple setups. This is something that is the "good programming" thing to do, and I encurage you to use it. But for simplicity we are simply using the global python environment in this course!
 
 ![running1](vs_setup5.png)
+
+The `.venv` is a Python Environment, so you can have multiple setups. This is something that is the "good programming" thing to do, and I encurage you to use it. 
+But for teaching convinience we are simply using the global python environment in this course! If you followed the guide for installing python that was provided. 
+Then the correct Interpreter will be:
+- Windows: `C:\Python314\python.exe`
+- MacOS (something like, honestly, I dont know!):
+  `/opt/homebrew/bin/python3.14`         (Apple Silicon)
+  `/usr/local/bin/python3.14`            (Intel)
+
