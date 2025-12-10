@@ -1,6 +1,11 @@
 # Visual Studio Code Installation Guide for Python
 
+## Install the package Manager, if you dont have one
+
+
 ## Install VS Code via package manager
+- Windows 10/11: Follow installation guide at: https://chocolatey.org/install
+- MacOS: Follow installation guide at: https://brew.sh/
 
 - Windows 10/11:
   ```bash
