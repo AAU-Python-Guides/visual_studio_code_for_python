@@ -40,19 +40,26 @@ Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/insta
    
    Your python might be 3.14.2 or similar
    
-    ![Select env3](vs_setup4.png)
+    The correct Interpreter will be:
+    - Windows: `C:\Python314\python.exe`
+    - MacOS (something like, honestly, I dont know!):
+      `/opt/homebrew/bin/python3.14`         (Apple Silicon)
+      `/usr/local/bin/python3.14`            (Intel)
+       
+        ![Select env3](vs_setup4.png)
 
-3. Install needed packages using pip
+4. Install needed packages using pip
    - pip install -r requirements.txt
 
 ## Running Python
 
 VS code should look something like this
+ - The `.venv` is a Python Environment, so you can have multiple setups.
+ - This is something that is the "good programming" thing to do, and I encurage you to use it.
+ - But for simplicity when teaching, we are simply using the global python environment in this course! This is a horrible idea, and you should not do this for your own projects. The selected Environment will therefore Look something like: `3.14.2`. Depending on the current version of python.
 
 ![running1](vs_setup5.png)
 
-The `.venv` is a Python Environment, so you can have multiple setups. This is something that is the "good programming" thing to do, and I encurage you to use it. 
-But for teaching convinience we are simply using the global python environment in this course! If you followed the guide for installing python that was provided. 
 Then the correct Interpreter will be:
 - Windows: `C:\Python314\python.exe`
 - MacOS (something like, honestly, I dont know!):
