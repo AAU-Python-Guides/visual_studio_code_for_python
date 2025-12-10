@@ -2,10 +2,10 @@
 
 ## Install the package Manager, if you dont have one
 
-
-## Install VS Code via package manager
 - Windows 10/11: Follow installation guide at: https://chocolatey.org/install
 - MacOS: Follow installation guide at: https://brew.sh/
+
+## Install VS Code via package manager
 
 - Windows 10/11:
   ```bash
