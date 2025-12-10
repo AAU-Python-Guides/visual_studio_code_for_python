@@ -46,10 +46,8 @@ Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/insta
   The correct Interpreter will be:
   - Windows: `C:\Python314\python.exe`
   - MacOS (something like, honestly, I dont know!):
-
-    `/opt/homebrew/bin/python3.14`         (Apple Silicon)
-
-    `/usr/local/bin/python3.14`            (Intel)
+    - `/opt/homebrew/bin/python3.14`         (Apple Silicon)
+    - `/usr/local/bin/python3.14`            (Intel)
        
 
 4. Install needed packages using pip, after selecting interpreter. i.e. something like this:
