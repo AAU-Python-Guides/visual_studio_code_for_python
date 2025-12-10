@@ -1,15 +1,16 @@
 # Visual Studio Code Installation Guide for Python
 
-## Install the package Manager, if you dont have one
 
-- Windows 10/11: Follow installation guide at: https://chocolatey.org/install
-- MacOS: Follow installation guide at: https://brew.sh/
+## Install Python
+Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/install_python_guide](https://github.com/AAU-Python-Guides/install_python_guide) 
+
+After Following the guide, you should have a package manager installed. We are gonna use this here again!
+
 
 ## Install VS Code via package manager
 
 - Windows 10/11:
   ```bash
-  Set-ExecutionPolicy Unrestricted -Scope LocalMachine
   choco install vscode
   choco install git
   ```
@@ -23,9 +24,6 @@ Create a new Profile in VS Code> Call it i.e. Python
 Install the following Extension:
 - `Python` by `Microsoft`
 - `Jupyter` by `Microsoft`
-
-## Install Python
-Follow Python installation Guide at: [https://github.com/AAU-Python-Guides/install_python_guide](https://github.com/AAU-Python-Guides/install_python_guide) 
 
 ## Working in a Visual Studio Code Environment
 
