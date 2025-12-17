@@ -11,8 +11,9 @@ After Following the guide, you should have a package manager installed. We are g
 
 - Windows 10/11:
   ```bash
-  choco install vscode
-  choco install git
+  Set-ExecutionPolicy RemoteSigned
+  winget install vscode
+  winget install git.git
   ```
 - MacOS:
   ```bash
@@ -47,7 +48,7 @@ Install the following Extension:
   ![Select env3](vs_setup4.png)
    
   The correct Interpreter will be:
-  - Windows: `C:\Python314\python.exe`
+  - Windows: `C:\Python314\python.exe`       (Alt efter hvordan du har installeret python, ser dette forskelligt ud)
   - MacOS (something like, honestly, I dont know!):
     - `/opt/homebrew/bin/python3.14`         (Apple Silicon)
     - `/usr/local/bin/python3.14`            (Intel)
